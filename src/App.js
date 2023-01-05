@@ -20,6 +20,7 @@ class App extends React.Component{
       <div className="App">
         <h1>Hi {data?.title || 'Framework'}</h1>
         <h3>{data?.title} is {data?.status || 'unknown'}</h3>
+        <h4>Salom dunyo</h4>
         </div>
     )
   }
